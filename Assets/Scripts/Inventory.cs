@@ -25,6 +25,7 @@ public class Inventory : MonoBehaviour
         if (item != null)
         {
             AddItem(item.Name);
+            Destroy(item.gameObject);
         }
     }
 
